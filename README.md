@@ -17,7 +17,7 @@ Building
 --------
 To build Annyeonghaseyo and its dependencies, get the code (by a git archive or a clone) and try some different techniques.
 
-h5. `bundle install --deployment`
+##### `bundle install --deployment`
 
 This method installs the gems locally to your project. They would show up in `vendor/bundle` where you unpacked Annyeonghaseyo. Don't forget to update GEM_PATH if you're not running a system that automatically detects vendored gems.
 
@@ -35,7 +35,7 @@ gem install annyeonghaseyo-0.0.1.gem
 gem list
 ```
 
-h5. `bundle install --system`
+##### `bundle install --system`
 
 This method installs the gems to normal gem path installation directories. Don't run this as root or with sudo--bundle will ask for that on its own.
 
